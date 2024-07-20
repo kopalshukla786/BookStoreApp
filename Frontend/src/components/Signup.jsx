@@ -10,7 +10,7 @@ function Signup() {
   const from = location.state?.from?.pathname || "/";
   const {
     register,
-    handleSubmit,
+    handleSubmit, 
     formState: { errors },
   } = useForm();
 

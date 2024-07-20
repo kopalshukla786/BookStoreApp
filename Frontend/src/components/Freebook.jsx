@@ -19,14 +19,15 @@ function Freebook() {
         setBook(data);
       } catch (error) {
         console.log(error);
-      }
+      } 
     };
     getBook();
   }, []);
 
+
   var settings = {
     dots: true,
-    infinite: false,
+    infinite: false, 
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 3,
